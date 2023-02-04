@@ -33,6 +33,7 @@
   .contact-form-group {
     display: grid;
     gap: 3px;
+    
   }
   
   .contact-label {
@@ -57,7 +58,7 @@
     width: 100%;
     height: 50px;
   
-    background-color: var(--text-color);
+    background-color: var(--primary-color);
     border-radius: 7px;
     color: var(--text-color-inverse);
     border: 1px solid var(--theme-color);
@@ -75,10 +76,12 @@
     display: flex;
     gap: 25px;
     justify-content: center;
+    
   }
   
   .social-list img {
     height: 25px;
+    
   }
   
   .social-list img:hover {
@@ -94,35 +97,43 @@
       margin: 0 auto;
   
       box-sizing: border-box;
+      
     }
   
     .contact-title {
       font-size: 35px;
       text-align: left;
+      
     }
   
     .social-list {
       justify-content: flex-start;
+      
     }
   
     .social-list img {
       height: 35px;
+    
     }
   
     .contact-title {
       grid-area: title;
+      
     }
   
     .contact-details {
       grid-area: details;
+      
     }
   
     .contact-form {
       grid-area: form;
+      
     }
   
     .social {
       grid-area: social;
+      
     }
   
     .contact {
